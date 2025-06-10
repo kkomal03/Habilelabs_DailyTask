@@ -1,0 +1,128 @@
+
+* {
+  box-sizing: border-box;
+  margin: 3px;
+  padding: 3px;
+  
+}
+
+body {
+  background:aquamarine;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background:rgb(200, 163, 163);
+  box-shadow:1px 4px 15px black;
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  
+}
+
+.card:hover {
+background-color: pink;
+  transform: translate(4em);
+}
+
+#profile{
+  width: 120px;
+  height: 120px;
+  border-radius: 50em;
+  border: 3px solid black;
+  padding: 0;
+  margin-bottom: 15px;
+}
+img:hover{
+    transform: translateY(-3em)
+}
+
+h3 {
+  margin-bottom: 5px;
+  color:black;
+  text-align: center;
+}
+
+p.bio {
+  text-align: center;
+  font-size: 14px;
+  color:black;
+  margin-bottom: 10px;
+}
+
+.contactInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(250, 252, 252);
+  margin-bottom: 0px;
+  box-shadow:1px 4px 15px black;
+  
+  
+
+}
+select{
+    background-color:antiquewhite;
+    
+}
+.label {
+  display: inline-block;
+  width: 100px;
+  
+}
+
+.value {
+  display: inline-block;
+
+}
+ .logo img{
+  display: flex;
+ 
+  width: 30%;
+  max-width: 300px;
+  flex-direction:column;
+}
+  
+.card .first{
+  background-color:rgb(64, 155, 224);
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction:column;
+  margin-bottom: -1%;
+  box-shadow:1px 4px 15px black;
+}
+.card .first:hover{
+  background-color: burlywood;
+}
+.logo{
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  margin-top: 0%;
+  
+} 
+/* responsive design using media queries */
+@media(max-width : 500px){
+  body{
+    background-color: cadetblue;
+  }
+  .card{
+    padding: 10px;
+    background-color: black;
+  }
+  #profile{
+    width:90px;
+    height:90px;
+  }
+  
+}
