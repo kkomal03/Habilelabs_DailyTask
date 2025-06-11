@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using JavaScript</title>
+</head>
+<body>
+    <!-- we use script to add the script inhside the html page and this is only written in body ,
+     anywhere we write like on before html code or after html code . -->
+     <div id="hello">
+     <p id="demo" style="background-color: aqua;">Hello</p>
+     </div>
+     <p>Hello I am in javascript</p>
+     <p id="secpara"> Second Paragraph</p>
+    <script>
+        //****** innertext
+        // innerText is a property in JavaScript that is used 
+        // to get or set the text content of an HTML element
+
+
+// document.getElementById("demo").innerText="Hello javascript"
+
+
+// output:replaces the existing text content of the element with 
+// the provided string(Hello=>Hello Javascript)
+
+
+
+
+
+//diffrence:    The innerHTML property returns: The text content of the element, 
+// including all spacing and inner HTML tags. The innerText property returns: 
+// Just the text content of the element and all its children,
+//  without CSS hidden text spacing and tags, except <script> and <style> elements.
+
+
+
+//****InnerHTML
+//used to get or set the HTML content of an element. It allows you to dynamically
+//  modify the structure 
+// and content of web pages by manipulating the HTML within specific elements. 
+
+
+//  document.getElementById("hello").innerText="hii JavaScript";
+ const hello= document.getElementById("hello").innerHTML;
+ document.getElementById("secpara").innerHTML= hello;
+
+// console.log(hello.innerHTML)
+    </script>`
+    
+</body>
+</html>
+
+
+
+
+
+
+<!-- <div id="myDiv">
+  <p>Original paragraph.</p>
+</div>
+
+<script>
+  const myDiv = document.getElementById("myDiv");
+  console.log(myDiv.innerHTML); // Output: <p>Original paragraph.</p>
+
+  myDiv.innerHTML = "<h2>New Heading</h2>";
+  // The div now contains only the new heading
+</script> -->
