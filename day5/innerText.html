@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerText</title>
+</head>
+<body>
+    <p>hello we are using innerText</p>
+    <p id="firstpara">Hello Javascript</p>
+    <p id="secondpara">Now we are in  <span>span inside      second para</span>      second para</p>
+    <script>
+
+        //The innerText property sets or returns the text content of an element.
+        const text=document.getElementById("firstpara").innerText="Now we      are in first para";
+        // document.getElementById("secondpara").innerText;
+        document.getElementById("secondpara").textContent = text;
+    </script>
+    
+</body>
+</html>
