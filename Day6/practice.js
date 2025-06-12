@@ -6,8 +6,9 @@ const person = {
 };
 
 function greet(greeting, location) {
-  console.log(`${greeting}, I'm ${this.name} from ${location}`);
+  console.log(greeting + ", I'm " + this.name + " from " + location);
 }
+
 // greet.call(person, "Hello", "Jaipur");
 
 
