@@ -74,6 +74,25 @@
 //   };
 // }
 
+
+
+
+
+
+//why we use ${}: The backticks (`) define a template literal.
+
+// The ${} is called expression interpolation:
+
+// You can put any valid JS expression inside it.
+
+// It evaluates and inserts the result into the string.
+
+
+
+
+
+
+
 // const greetKomal = greet("Komal");
 // console.log(greetKomal("Hello"));
 // //* greetKomal("Hello"); 
