@@ -1,0 +1,109 @@
+body{
+    background-color: antiquewhite;
+    padding: 10x 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+#navbar {
+  background-color:  rgb(40, 129, 180);
+  /* list-style-type: none; */
+  text-align:center;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+.kk{
+    font-size: 2.5;
+}
+.para1{
+    font-size: 2em;
+}
+footer{
+  bottom: 0px;
+    padding: 0px;
+  font-size: 15px;
+text-align: center;
+    width: 100%;
+    background-color: rgb(40, 129, 180);
+    position: fixed;
+
+}
+#profilePhoto{
+  margin: 10px;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 5px;
+  float: right;
+}
+.About{
+  padding: 20px;
+  margin: 20px;
+  overflow: auto;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+#para1{
+  text-align: justify;
+}
+.btn{
+  background-color:rgb(68, 110, 228) ;
+
+}
+#btn:hover{
+  background-color: rgb(19, 227, 158);
+}
+.edu{
+ 
+  flex-wrap: wrap;
+  width: 18rem;
+  overflow: auto;
+  text-align:justify;
+
+  
+}
+.edu:hover{
+  background-color: rgb(90, 147, 190);
+}
+#forint{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.inheading{
+  font-size: 16px;
+}
+.box{
+  box-sizing: border-box;
+
+}
+.skills{
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.html{
+  width: 90%;
+  background-color: rgb(3, 175, 249);
+}
+.css{
+  width: 80%;
+  background-color: rgb(3, 175, 249);
+}
+.js{
+  width: 70%;
+  background-color:  rgb(3, 175, 249);
+}
+.react{
+  width: 60%;
+  background-color: rgb(3, 175, 249);
+}
