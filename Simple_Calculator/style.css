@@ -7,17 +7,68 @@ body{
 }
 
 .calculator{
+   
     border: solid 2px rgb(236, 183, 150);
-    border-radius: 2px;
+    border-radius: 60px;
     padding:30px;
     background-color: rgb(53, 176, 195);
+
+
+
+
+
+    /* animation properties*/
+    animation-name: secondanimation;
+    animation-duration: 5s;
+    animation-iteration-count: 4;
+    animation-delay: 5s;
+
+}
+/* #hello{
+    
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation-name: firstanimation;
+  animation-duration: 3s;  
+   animation-delay: 5s;
+   animation-direction: normal;
+   animation-timing-function: ease;
+   animation-fill-mode: both;
+
+} */
+/* @keyframes firstanimation {
+  from {top: 0px;}
+  to {top: 800px; background-color: rgb(90, 90, 215);}
+} */
+
+
+
+
+@keyframes secondanimation {
+    0%{
+        transform: translateY(-60px);
+
+    }
+    80%{
+        transform: translateY(110px);
+    }
+    100%{
+        transform: translateY(100px);
+    }
+    
 }
 .btn{
     display: grid;
-    grid-template-columns: repeat(3, 80px);
-    gap: 2px;
+    grid-template-columns: repeat(4, 80px);
+    gap: 10px;
+  
 }
 button{
+    height:60px;
+    border: 1px;
+  border-radius: 35px;
     font-size: 1.2rem;
     background-color: bisque;
     cursor: pointer;
@@ -35,3 +86,7 @@ button:hover{
     border: solid 1px;
     border-radius: 5px;
 }
+.arithmetic{
+    background-color: rgb(70, 94, 160);
+}
+
