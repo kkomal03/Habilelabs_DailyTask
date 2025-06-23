@@ -1,0 +1,32 @@
+// string length,
+// string at
+// include : returns true or false
+// toUpperCase
+// toLowerCase
+// indexof
+// lastindexof
+// slice
+// splice
+// replace
+// trim
+// ***split:return comma seprated array
+// join
+// concat:to add two strings
+
+
+
+
+ //filter(): Creates a new array with all elements that pass a test implemented by a provided function. 
+// map(): Creates a new array with the results of calling a provided function on every element in the calling array.
+
+
+//array
+//retuns same array
+Pop
+push
+shift
+unshift
+filter
+map
+reduce
+find

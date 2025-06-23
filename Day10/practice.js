@@ -14,28 +14,42 @@ let user = {
                 },
                 {
                     subject: "xyz",
-                    value: 56,
+                    value: 78,
                 },
 
             ],
-            cal: (marks) => {
+            cal: function() {
                 let sum=0;
-                for(let i=0; i<marks.length;i++){
-                    if(marks[i].value>50){
-                        sum += marks[i].value;
-                    }
-                }
-              return sum;
-                //cal......
+                this.marks.map((data) => {
+                    // console.log(data.value);
+                    sum += data.value;
+                   
+                })
+                 console.log(sum)
             }
+
+
+
+            
+            // cal: (marks) => {
+            //     let sum=0;
+            //     for(let i=0; i<marks.length;i++){
+            //         if(marks[i].value>50){
+            //             sum += marks[i].value;
+            //         }
+            //     }
+            //   return sum;
+            //     //cal......
+            // }
            
     },
 
     lang: ['hindi', 'english']
 }
+user.bio.cal();
 
 
-console.log(user.bio.cal(user.bio.marks));
+// console.log(user.bio.cal(user.bio.marks));
 
 // let sum=0;
 // user.bio.marks.forEach((mark) => {
@@ -49,4 +63,4 @@ console.log(user.bio.cal(user.bio.marks));
 // });
 // console.log(sum);
 
-console.log(user.lang);
+// console.log(user.lang);
