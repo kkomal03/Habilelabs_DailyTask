@@ -23,3 +23,13 @@ for(let i in arr)
 
 }
 console.log(b.join(" "));
+
+
+
+
+
+let str = "JavaScript";
+
+console.log(str.slice(0, 4));     
+console.log(str.substring(4, 0)); 
+console.log(str.indexOf("S"))

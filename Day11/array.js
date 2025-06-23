@@ -33,11 +33,11 @@ const myarray=[10,20,30,40,50,1];
 // array.filter(function(currentValue, index, arr), thisValue)
 
 
-console.log(myarray.filter(key=>key>30))
-console.log(myarray.filter(key=>key>50))
+// console.log(myarray.filter(key=>key>30))
+// console.log(myarray.filter(key=>key>50))//no key is present from greater then 50 so it give null array
 
-console.log(myarray.filter(key=>key%2===0))
-console.log(myarray)
+// console.log(myarray.filter(key=>key%2===0))
+// console.log(myarray)
 
 
 
@@ -52,6 +52,7 @@ console.log(myarray)
 // array.map(function(currentValue, index, arr), thisValue)
 
 // Square the elements
+// console.log(myarray)
 // console.log(myarray.map(key=>key*key))
 
 //convert number to string
@@ -174,7 +175,7 @@ console.log(myarray)
 
 // console.log(myarray.find(key=>key>30));
 // const farray=[1, 3, 7, 8, 5];
-// console.log(farray.find(key=>(key%2)===0))
+// // console.log(farray.find(key=>(key%2)===0))
 // console.log(farray.find(key=>{
 //     if(key%2===0)
 //         return key;
