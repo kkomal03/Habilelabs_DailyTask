@@ -1,0 +1,7 @@
+splice:edit same array
+slice:do not affect old array
+some:if one value is true then it eill give true
+every:give false if all are not satisfied condition
+include:when 
+sort
+reverse
