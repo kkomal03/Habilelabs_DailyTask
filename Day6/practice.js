@@ -9,7 +9,7 @@ function greet(greeting, location) {
   console.log(greeting + ", I'm " + this.name + " from " + location);
 }
 
-// greet.call(person, "Hello", "Jaipur");
+greet.call(person, "Hello", "Jaipur");
 
 
 
@@ -17,7 +17,7 @@ function greet(greeting, location) {
 //**apply:it also executes function immediatly and one only difference in call and apply is 
 // argument ,{call will pass list of arguments and aplly will pass list of array}
 
-// greet.apply(person, ["Hi", "Udaipur"]);
+greet.apply(person, ["Hi", "Udaipur"]);
 
 
 //**bind:it executes the function later[You can store and call it later] 

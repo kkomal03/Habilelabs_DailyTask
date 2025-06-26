@@ -6,8 +6,8 @@
 
 
 
-// const arr=[1,2,3,4,5]
-// console.log(arr.map());
+const arr=[1,2,3,4,5]
+console.log(arr.map(key=> key>3));
 
 
 
@@ -16,6 +16,7 @@
 
 const num = [1,2,3,4,5];
 console.log(num.filter(key => key >3))
+console.log(num.map(key => key >3))
 console.log(num.map(key => {
     if(key > 3) {
         return key

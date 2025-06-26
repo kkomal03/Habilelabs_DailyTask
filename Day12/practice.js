@@ -10,6 +10,7 @@
 
 
 let a="hello world"
+//output:Hello World
 const arr = a.split(" ");
 // ["hello", "world"]
 let b=[]
@@ -19,17 +20,12 @@ for(let i in arr)
     //h
     //H
     b[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1)
+    console.log(arr[i].slice(1));
 
 
 }
+console.log(b)
 console.log(b.join(" "));
 
 
 
-
-
-let str = "JavaScript";
-
-console.log(str.slice(0, 4));     
-console.log(str.substring(4, 0)); 
-console.log(str.indexOf("S"))
