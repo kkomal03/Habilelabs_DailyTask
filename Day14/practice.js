@@ -234,17 +234,16 @@
 
 
 
-// const myPromise = new Promise((resolve, reject) => {
-//   fetch("https://www.w3schools.com/js/js_promise.asp1")
-//     .then(data => {
-//     //   resolve("Accepted ");
-//     reject("rejected")
-//     });
-// });
-
-// myPromise
-//   .then((data) => console.log("Resolved:", data))
-//   .catch((err) => console.log("Caught:", err));
+const myPromise = new Promise((resolve, reject) => {
+  fetch("https://www.w3schools.com/js/js_promise.asp1")
+    .then(data => {
+      resolve("Accepted ");
+    // reject("rejected")
+    });
+});
+myPromise
+  .then((data) => console.log("Resolved:", data))
+  .catch((err) => console.log("Caught:", err));
 
 
 
@@ -314,15 +313,15 @@
 
 
 
-const p = new Promise((resolve) => {
-  resolve("Hi");
-});
+// const p = new Promise((resolve) => {
+//   resolve("Hi");
+// });
 
-p.then((data) => {
-  console.log("First", data);
-  return "From first";
-})
+// p.then((data) => {
+//   console.log("First", data);
+//   return "From first";
+// })
 
-.then((data) => {
-  console.log("Second", data); // data is "Hi", NOT "From first"
-});
+// .then((data) => {
+//   console.log("Second", data); // data is "Hi", NOT "From first"
+// });
