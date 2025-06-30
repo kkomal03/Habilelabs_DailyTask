@@ -45,7 +45,7 @@ dSearch('Hello, World!');  // Only this call will trigger after 100ms
 
 
 
-
+//destructuring
 
 function NamesList() {
     return ["a", "b", "c", "d"]
